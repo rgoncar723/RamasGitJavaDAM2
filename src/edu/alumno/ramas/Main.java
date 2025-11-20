@@ -21,5 +21,6 @@ public class Main {
 		System.out.println("Suma de principales: " + suma);
 		int complementario = r.nextInt(49) + 1;
 		System.out.println("Complementario: " + complementario);
+		System.out.println("Cambio realizado desde GitHub");
 	}
 }
