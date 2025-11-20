@@ -12,6 +12,8 @@ public class Main {
             bolas.add(r.nextInt(49) + 1);
         }
         System.out.println("Números principales: " + bolas);
+        int suma = bolas.stream().mapToInt(Integer::intValue).sum();
+        System.out.println("Suma de principales: " + suma);
         int complementario = r.nextInt(49) + 1;
         System.out.println("Complementario: " + complementario);
     }
